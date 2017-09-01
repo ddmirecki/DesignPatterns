@@ -5,5 +5,5 @@ package sda2.StrategiaParzysteNieparzyste;
  */
 public interface ILiczenie {
 
-    int[] liczenie();
+    int[] liczenie(int[] ints);
 }

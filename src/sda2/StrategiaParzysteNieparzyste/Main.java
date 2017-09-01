@@ -8,9 +8,9 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        Bonifacy bonifacy = new Nieparzyste();
-        Parzyste parzyste = new Parzyste();
-        Nieparzyste nieparzyste = new Nieparzyste();
+
+        ObliczanieLiczb obliczanieLiczb = new ObliczanieLiczb(new ObliczanieNieparzyste());
+
 
 
     ObliczanieNieparzyste obliczanieNieparzyste = new ObliczanieNieparzyste();

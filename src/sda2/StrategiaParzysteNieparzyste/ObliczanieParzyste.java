@@ -6,8 +6,7 @@ package sda2.StrategiaParzysteNieparzyste;
 public class ObliczanieParzyste implements ILiczenie {
 
     @Override
-    public int[] liczenie() {
-        int[] ints = new int[100];
+    public int[] liczenie(int[] ints) {
         int licznik = 0;
         for (int i = 0; i < ints.length; i++) {
             if (i % 2 == 0) {

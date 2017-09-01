@@ -10,13 +10,9 @@ public class Main {
 
 
         ObliczanieLiczb obliczanieLiczb = new ObliczanieLiczb(new ObliczanieNieparzyste());
-
-
-
-    ObliczanieNieparzyste obliczanieNieparzyste = new ObliczanieNieparzyste();
-        int[] liczenie = obliczanieNieparzyste.liczenie();
-
-        System.out.println(Arrays.toString(liczenie));
+        int[] ints = new int[]{1, 2, 3, 4, 5, 6};
+        int[] ints1 = obliczanieLiczb.obliczLiczby(ints);
+        System.out.println(Arrays.toString(ints1));
 
 
     }

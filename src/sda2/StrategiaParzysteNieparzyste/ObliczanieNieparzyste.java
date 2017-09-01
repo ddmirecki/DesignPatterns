@@ -17,7 +17,10 @@ public class ObliczanieNieparzyste implements ILiczenie {
                 licznik++;
             }
         }
-        return ints;
-
+        int[] tabCalculated = new int[licznik];
+        for (int i = 0; i < tabCalculated.length ; i++) {
+            ints[i] = tabCalculated[i];
+        }
+    return tabCalculated;
     }
 }

@@ -10,7 +10,7 @@ public class ObliczanieParzyste implements ILiczenie {
         int licznik = 0;
         for (int i = 0; i < ints.length; i++) {
             if (i % 2 == 0) {
-                ints[licznik] = i;
+                ints[licznik] = ints[i];
                 licznik++;
             }
         }

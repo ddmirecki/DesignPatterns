@@ -9,8 +9,8 @@ public class Main {
     public static void main(String[] args) {
 
 
-        ObliczanieLiczb obliczanieLiczb = new ObliczanieLiczb(new ObliczanieNieparzyste());
-        int[] ints = new int[]{1, 2, 3, 4, 5, 6};
+        ObliczanieLiczb obliczanieLiczb = new ObliczanieLiczb(new ObliczanieParzyste());
+        int[] ints = new int[]{4, 3, 2, 6, 5, 1};
         int[] ints1 = obliczanieLiczb.obliczLiczby(ints);
         System.out.println(Arrays.toString(ints1));
 

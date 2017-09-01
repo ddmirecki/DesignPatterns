@@ -9,11 +9,15 @@ public class ObliczanieParzyste implements ILiczenie {
     public int[] liczenie(int[] ints) {
         int licznik = 0;
         for (int i = 0; i < ints.length; i++) {
-            if (i % 2 == 0) {
+            if (ints[i] % 2 == 0) {
                 ints[licznik] = ints[i];
                 licznik++;
             }
         }
-        return ints;
+        int[] tabCalculated = new int[licznik];
+        for (int i = 0; i < tabCalculated.length ; i++) {
+            tabCalculated[i] = ints[i];
+        }
+        return tabCalculated;
     }
 }

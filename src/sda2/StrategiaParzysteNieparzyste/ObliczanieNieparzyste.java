@@ -19,5 +19,6 @@ public class ObliczanieNieparzyste implements ILiczenie {
             }
         }
         return ints;
+
     }
 }
